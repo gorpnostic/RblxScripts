@@ -2,22 +2,32 @@
 local teleportPoints = {
     Vector3.new(36, 100, 1370),
     Vector3.new(36, 100, 1370),
+    Vector3.new(36, 100, 1370),
+    Vector3.new(36, 100, 2131),
     Vector3.new(36, 100, 2131),
     Vector3.new(36, 100, 2131),
     Vector3.new(36, 100, 2912),
     Vector3.new(36, 100, 2912),
+    Vector3.new(36, 100, 2912),
+    Vector3.new(36, 100, 3685),
     Vector3.new(36, 100, 3685),
     Vector3.new(36, 100, 3685),
     Vector3.new(36, 100, 4445),
     Vector3.new(36, 100, 4445),
+    Vector3.new(36, 100, 4445),
+    Vector3.new(36, 100, 5225),
     Vector3.new(36, 100, 5225),
     Vector3.new(36, 100, 5225),
     Vector3.new(36, 100, 5993),
     Vector3.new(36, 100, 5993),
+    Vector3.new(36, 100, 5993),
+    Vector3.new(36, 100, 6755),
     Vector3.new(36, 100, 6755),
     Vector3.new(36, 100, 6755),
     Vector3.new(36, 100, 7523),
     Vector3.new(36, 100, 7523),
+    Vector3.new(36, 100, 7523),
+    Vector3.new(36, 100, 8298),
     Vector3.new(36, 100, 8298),
     Vector3.new(36, 100, 8298),
     Vector3.new(-55, -270, 9499)
@@ -29,7 +39,7 @@ local function teleportPlayer(character)
         if character and character:FindFirstChild("HumanoidRootPart") then
             character.HumanoidRootPart.CFrame = CFrame.new(point)
         end
-        wait(0.75)
+        wait(0.5)
     end
 end
 
